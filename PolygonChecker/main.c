@@ -33,6 +33,9 @@ int main() {
 			continueProgram = false;				//Added to fix infinite loop
 			continueProgram = false;
 			break;
+		case 2:
+			printf_s("Rectangle selected.\n"); //Added new case for rectangle
+
 		}
 	}
 	return 0;
@@ -49,6 +52,7 @@ void printWelcome() {
 int printShapeMenu() {
 	printf_s("1. Triangle\n");
 	printf_s("0. Exit\n");
+	printf_s("2. Rectangle\n"); //Added to print new Rectangle Case
 
 	int shapeChoice;
 
