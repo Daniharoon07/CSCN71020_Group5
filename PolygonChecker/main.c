@@ -70,3 +70,9 @@ int* getTriangleSides(int* triangleSides) {
 	}
 	return triangleSides;
 }
+
+int* getRectanglePoints(int* rectanglePoints) { //added new function from main.h for rectangle input
+
+
+
+}

@@ -6,7 +6,7 @@
 //added new main file for rectangle feature
 
 float* analyzerectangle(int point1, int point2, int point3, int point4) {
-	char* result = "";
+	float* result = "";
 	if (point1 < 0 || point2 < 0 || point3 < 0 || point4 < 0)
 	{
 		result = "Not a rectangle\n";
